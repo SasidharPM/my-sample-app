@@ -5,7 +5,8 @@ const pattern =  new RegExp('^[0-9]+$');
 
 class App extends React.Component {
   state = {
-    number1: 0,number2:0,
+    number1: 0,
+    number2:0,
   };
 
   number1Change = (event) => {
